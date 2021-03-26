@@ -1,0 +1,59 @@
+h1,h2{
+    font-size: 20px;
+}
+
+.header{
+    background-color: #000000;
+    -webkit-text-fill-color: #96c49a;
+    display: flex;
+    justify-content: space-around;
+   
+    height: 40px;
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.item{
+    border-radius: 20px;
+    background-color: #faebd7;
+    
+    
+
+    width: 310px
+
+}
+img{
+    border: solid;
+   border-color: #a52a2a;
+   background-color: #5f9ea0;
+     
+}
+
+a:link{
+    color: #65b38f;
+}
+
+a:visited{
+    color: #65b38f
+}
+.item :hover img{
+    transform: scale(1.2);  
+
+
+}
+.item img{
+    position: relative;
+
+
+}
+.item p{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-60%);
+    opacity: 0;
+}
